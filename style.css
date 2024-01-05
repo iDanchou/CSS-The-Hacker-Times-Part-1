@@ -7,6 +7,12 @@
     padding-left: 20px;
     margin: 0 auto;
     background: white;
+    height: 300vh;
+}
+
+.newspaper-container img {
+    width: 100%;
+
 }
 
 header {
@@ -58,7 +64,20 @@ main p {
     display: inline-block;
     width: 40%;
     justify-content: center;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 40px;
+    padding: 1em;
+    text-align: justify;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.even-more-articles .grid-item{
+    display: inline-grid;
+    width: 30%;
+    justify-content: center;
+    text-align: justify;
+    padding: 0.4em;
 }
